@@ -99,7 +99,7 @@ img{max-width:100%;display:block;}
    Shared scaffolding
    ============================================================ */
 section{position:relative;}
-.section-inner{max-width:var(--max-width);margin:0 auto;padding:clamp(80px,11vw,140px) var(--gutter);}
+.section-inner{max-width:var(--max-width);margin:0 auto;padding:40px;}
 .section-eyebrow{font-family:var(--font-mono);font-size:13px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--vo-text-muted);margin-bottom:22px;display:flex;align-items:center;gap:14px;}
 .section-eyebrow::before{content:'';width:36px;height:1px;background:var(--vo-line-divider);}
 h2{font-family:var(--font-display);font-weight:400;font-size:clamp(1.9rem,3.8vw,3rem);line-height:1.15;letter-spacing:-.01em;max-width:24ch;}
